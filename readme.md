@@ -11,3 +11,11 @@ I am assuming that you have a basic understanding of neural netowrks and how to 
 * CNNs accept matrices (2d arrays as input).
 * MLP uses fulley connected networks.
 * CNNs uses sparcely connected networks.
+
+#### Local Connectivity
+
+In an MLP a node in the hidden layer would recive input from every node in the input layer, in a CNN a every neuron would revice an input from a small group of neurons and these neurons are very close to each other.
+
+This allows the hidden layer to achive a better understanding of the Image data. And similarly we can introduce more hidden layers so that the model can understand better patterns of the data in the image.
+
+In simple term if we have a cat in the image we do not have to teach the neural network with different images of the cat in different locations of the image we can simply teach it to understand what the features of a cat so that it does not matter where the cat is on the image but the model would recognise it.
