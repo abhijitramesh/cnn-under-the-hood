@@ -31,3 +31,8 @@ Filters are applied on images to output the edges of the image and different tex
 #### Frequency
 
 Frequency of an image is the change if intensity of the image from one pixel to another pixel, a single image might have both high frequency componets as well as low frequency components.
+
+#### High-pass filter
+
+This is bascically the principle of taking a convolutional kernel of which the sum of all elements would be zero and then convoluting this over the image thereby showing where there is a high frequency in the image or an edge.
+
