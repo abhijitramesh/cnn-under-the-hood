@@ -24,3 +24,10 @@ In simple term if we have a cat in the image we do not have to teach the neural 
 
 Convolutional layers contain series of fileters that are called convolutional kernels, these help in identifying edges and other features of images.
 
+#### Filters
+
+Filters are applied on images to output the edges of the image and different textures.
+
+#### Frequency
+
+Frequency of an image is the change if intensity of the image from one pixel to another pixel, a single image might have both high frequency componets as well as low frequency components.
