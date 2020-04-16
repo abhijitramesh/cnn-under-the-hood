@@ -36,3 +36,5 @@ Frequency of an image is the change if intensity of the image from one pixel to 
 
 This is bascically the principle of taking a convolutional kernel of which the sum of all elements would be zero and then convoluting this over the image thereby showing where there is a high frequency in the image or an edge.
 
+[Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/Filter%20for%20Edge%20dectection.ipynb)
+To find out how to do edge dectection
