@@ -38,3 +38,23 @@ This is bascically the principle of taking a convolutional kernel of which the s
 
 [Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/Filter%20for%20Edge%20dectection.ipynb)
 To find out how to do edge dectection
+
+#### Convolutional Layer
+
+When an input image is given there are lot of unwanted noice in the image that would not be of much usefull for the traning so we have to apply a series of filters to the image the layer which applies this filters is known as convolutional layers.
+
+### *Why* do we apply these filters ?
+
+Every filter is applied to make sure a different aspect of the image is revelaled,
+
+for example filter 1 would be showing horizontal lines and filter 2 would be showing verticle lines and so on.
+
+We are talking there filters in case of a grayscale image which can be represented as a 2d array and we apply there filters to extract some features and then pass this to a neural network to recognise patterns in these images.
+
+If we take a rgb image the array can be considered as 3d where each dimention represents a colour channel, then we have to apply the filter to every colour channel before passsing it to the neural network, if we have multiple filters we have to consider the initial 3d array to be duplicated to be passed to different filters so that we would be able to regonise patters within them, where this gets sofisticated is that we can actually pass these patterns into another cnn to recognise patters with patterns and then again pass this to yet another cnn to recognize patters within patterens with patterns.
+
+#### Stride and Padding
+
+As we have mentioned earlier the Convolutional Kernel moves on top of the image to produce the output this if stride is 1 it takes 1 step every time and create an output of the same size of image, if stride is 2 it takes 2 step and output would be half the size of the image, but there is a problem here, what will happen when we reach the corner, We can eigher ignore these parts but this means we are leaving out some stuff for the neural network to learn from. Here comes padding we can pad the edges with 0's which will help the stried to happen without an issue.
+
+
