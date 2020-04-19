@@ -57,4 +57,9 @@ If we take a rgb image the array can be considered as 3d where each dimention re
 
 As we have mentioned earlier the Convolutional Kernel moves on top of the image to produce the output this if stride is 1 it takes 1 step every time and create an output of the same size of image, if stride is 2 it takes 2 step and output would be half the size of the image, but there is a problem here, what will happen when we reach the corner, We can eigher ignore these parts but this means we are leaving out some stuff for the neural network to learn from. Here comes padding we can pad the edges with 0's which will help the stried to happen without an issue.
 
+#### Pooling
+
+When we are dealing with a small or highly preprocessed dataset like MNIST we dont have to use much computational power. But imageine that we have a very complex dataset with colour images. In this case we might have to apply lots of filter to them, the more the filter we apply the more computational resources we use, which means more Stack which increases the dimentionality of our neural network.
+
+To solve this we use pooling mainly maxpooling, which calculates the maximum of the specified window we give thereby decreasing the dimentionaly of the network.
 
