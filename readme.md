@@ -43,6 +43,10 @@ To find out how to do edge dectection
 
 When an input image is given there are lot of unwanted noice in the image that would not be of much usefull for the traning so we have to apply a series of filters to the image the layer which applies this filters is known as convolutional layers.
 
+[Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/Convolutional%20Layers.ipynb)
+
+To visualise Convolutionl Layers
+
 ### *Why* do we apply these filters ?
 
 Every filter is applied to make sure a different aspect of the image is revelaled,
