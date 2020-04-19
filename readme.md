@@ -67,3 +67,6 @@ When we are dealing with a small or highly preprocessed dataset like MNIST we do
 
 To solve this we use pooling mainly maxpooling, which calculates the maximum of the specified window we give thereby decreasing the dimentionaly of the network.
 
+[Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/visualising_maxpooling.ipynb)
+
+To visualise maxpooling layers
