@@ -83,3 +83,9 @@ Capuse networks outputs a vector. Which we can use for the training.
 Let us Train the CIFAR dataset and see how we can use a cnn to classify images.
 
 [Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/CIFARipynb.ipynb)
+
+##### Image Augmentation
+Reguardless of what our image looks like at the end of the day we need our model to learn only what the patten in the image is or what the object we are showing the neural netwok. The size of the object or the position of the object in the image should not effect the prediction hence we need our network to be invarient. 
+
+To do this we kind of cheat the system, we randomly rotate the provided images and also augment its position so that the network would learn from every angle.
+
