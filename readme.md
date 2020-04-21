@@ -89,3 +89,8 @@ Reguardless of what our image looks like at the end of the day we need our model
 
 To do this we kind of cheat the system, we randomly rotate the provided images and also augment its position so that the network would learn from every angle.
 
+[Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/cifar10_cnn_augmentation.ipynb)
+
+To see how I have added some augmentation to the CIFAR classification
+
+This slightly increased our accuracy.
