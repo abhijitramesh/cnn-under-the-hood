@@ -80,3 +80,6 @@ Capuse network represent data as a tree and it is able to spatially arrange the 
 
 Capuse networks outputs a vector. Which we can use for the training.
 
+Let us Train the CIFAR dataset and see how we can use a cnn to classify images.
+
+[Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/CIFARipynb.ipynb)
