@@ -70,3 +70,13 @@ To solve this we use pooling mainly maxpooling, which calculates the maximum of 
 [Click here](https://github.com/abhijitramesh/cnn-under-the-hood/blob/master/visualising_maxpooling.ipynb)
 
 To visualise maxpooling layers
+
+
+##### Capslule Network
+
+As you know pooling operations do throw away some data, which is ok in case of some dataset but might go wrong when it comes to others for example if we consider the case of a face we can identify it by features such as eyes nose etc... but if we give a photoshoped image which has 3 eyes and 2 nose also applying max pooling might give us the result as the image recognizes a face.
+
+Capuse network represent data as a tree and it is able to spatially arrange the data and represent relationship between them. Each node would contain information about different parts properties like color, orientation, width etc.. 
+
+Capuse networks outputs a vector. Which we can use for the training.
+
